@@ -1,0 +1,17 @@
+{
+  "name": "isla-voxel",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Isla Voxel - juego de ciudad voxel empaquetado como APK con Capacitor",
+  "scripts": {
+    "android": "npx cap add android && npx @capacitor/assets generate --android && python3 scripts/ajustes_android.py && npx cap sync android"
+  },
+  "dependencies": {
+    "@capacitor/android": "^8.6.2",
+    "@capacitor/core": "^8.6.2"
+  },
+  "devDependencies": {
+    "@capacitor/assets": "^4.0.0",
+    "@capacitor/cli": "^8.6.2"
+  }
+}

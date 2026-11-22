@@ -1,0 +1,10 @@
+{
+  "appId": "pe.jc.islavoxel",
+  "appName": "Isla Voxel",
+  "webDir": "www",
+  "backgroundColor": "#0d0f14",
+  "android": {
+    "allowMixedContent": false,
+    "captureInput": true
+  }
+}
