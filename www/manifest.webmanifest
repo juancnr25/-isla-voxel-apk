@@ -1,0 +1,20 @@
+{
+  "name": "Isla Voxel",
+  "short_name": "Isla Voxel",
+  "description": "Ciudad voxel isométrica: camina, maneja y enfrenta delincuentes.",
+  "id": "./",
+  "start_url": "./",
+  "scope": "./",
+  "display": "fullscreen",
+  "display_override": ["fullscreen", "standalone"],
+  "orientation": "landscape",
+  "background_color": "#0d0f14",
+  "theme_color": "#0d0f14",
+  "lang": "es-PE",
+  "categories": ["games", "entertainment"],
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
