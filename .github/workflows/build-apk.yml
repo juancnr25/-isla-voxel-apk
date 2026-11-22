@@ -23,8 +23,8 @@ jobs:
           distribution: temurin
           java-version: 21
 
-      - name: Android SDK
-        uses: android-actions/setup-android@v3
+      
+        
 
       - name: Instalar dependencias
         run: npm install
