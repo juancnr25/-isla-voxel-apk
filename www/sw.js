@@ -1,6 +1,6 @@
 // Isla Voxel - service worker
 // Cambia VERSION en cada despliegue para que los celulares bajen la versión nueva.
-const VERSION = 'isla-voxel-v1';
+const VERSION = 'isla-voxel-v3';
 const ARCHIVOS = [
   './',
   './index.html',
@@ -43,7 +43,7 @@ self.addEventListener('fetch', e => {
     return;
   }
   // resto: caché primero
-  e.respondWith(caches.match(req).then(r => r || fetch(req).then(res => {
+  e.respondWith(caches.match(req,{ignoreSearch:true}).then(r => r || fetch(req).then(res => {
     const copia = res.clone(); caches.open(VERSION).then(c => c.put(req, copia)); return res;
   })));
 });
